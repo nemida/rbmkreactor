@@ -1,5 +1,7 @@
 <h1> RBMK Reactor Simulation</h1>
 
+![Project Screenshot](raa.png)
+
 <p>This project simulates the behavior of a RBMK nuclear reactor core using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It features an interactive UI with control rods, real-time temperature and power graphs, and simplified reactor physics modeling.</p>
 
 <hr>
@@ -38,7 +40,7 @@
   <li><strong>Reactivity:</strong> % based on rods, voids, and xenon effects</li>
   <li><strong>Temperature:</strong> Core temp in °C with visual alerts:</li>
   <ul>
-    <li>🔵 <em>Normal</em>: No label</li>
+    <li>🔵 <strong>Normal</strong>: No label</li>
     <li>🟡 <strong>WARNING</strong>: Above 500 °C</li>
     <li>🔴 <strong>CRITICAL</strong>: Above 700 °C (blinking)</li>
   </ul>
